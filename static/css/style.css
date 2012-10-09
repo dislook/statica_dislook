@@ -2,6 +2,7 @@ body {
 	margin:0;
 	padding:0;
 	background-color:#cbbba0;
+	color:#614d42;
 }
 
 .header{
@@ -17,24 +18,77 @@ body {
 	color:#614d42;
 	font-size:30px;
 	margin-right:35px;
-}
-
-ul li{
 	display:inline;
 	font-family: 'Gloria Hallelujah', cursive;
 }
 
-.bloc{
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
-	background-color:#fff;
+h2{
+	font-family: 'Gloria Hallelujah', cursive;
+	color:#614d42;
+}
+footer#first h2{
+	font-family: 'Gloria Hallelujah', cursive;
+	color:#cbbba0;
 }
 
-.nav-list .active a{
-	background-color:#614d42;
-	color:white !important;
+.dropdown-menu{
+	background-color:#E7E4D8;
 }
-.nav-list a{
+.dropdown-menu li{
+	font-size:18px;
+}
+
+.dropdown a{
 	color:#614d42;
+}
+.dropdown .caret{
+	margin-top:11px;
+	margin-left:9px;
+}
+
+.carousel-control{
+	background:#614d42 !important;
+}
+
+.product-title{
+	text-align:center;
+}
+
+.product-description{
+	text-align:left;
+	font-size:13px;
+	padding:0 25px;
+}
+
+footer#first{
+	background-color:#614d42;
+	padding:20px 0;
+	color:#cbbba0;
+}
+footer#first p{
+	color:#cbbba0;
+	font-size:13px;
+}
+footer#first li{
+	list-style-type:none;
+}
+footer#first h2{
+	border-bottom:1px dashed #3d302a;
+	text-shadow: 2px 1px #3d302a;
+}
+footer#first .social img{
+	margin:0 5px 15px 5px;
+}
+
+footer#second{
+	background-color:#3d302a;
+	padding:15px 0;
+	color:#614d42;
+}
+
+.dot{
+	font-size:50px;
+	margin:-1px -20px;
+	position:absolute;
+	text-shadow: 2px 1px #3d302a;
 }
