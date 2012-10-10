@@ -32,12 +32,81 @@
 <!-- /btn-toolbar -->
 
 <div class="container">
-{% block content %}{% endblock content %}
+	
+	<!--HEADER-->
+	<div class="header disp-table">
+		<div class="pull-left" style="margin-top:70px">
+			<ul>
+			<li class="dropdown btn-menu">
+				<a id="drop1" href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">portada<b class="caret icon-white"></b></a>
+				<ul class="dropdown-menu" role="menu" aria-labelledby="drop1">
+					<li><a tabindex="-1" href="http://google.com">Action</a></li>
+					<li><a tabindex="-1" href="#anotherAction">Another action</a></li>
+					<li><a tabindex="-1" href="#">Something else here</a></li>
+					<li><a tabindex="-1" href="#">Separated link</a></li>
+				</ul>
+			</li>
+			<li class="btn-menu">tarifes</li>
+			<li class="btn-menu">contacta</li>
+			<li class="btn-menu">blog</li>
+			</ul>
+		</div>
+		<div class="pull-right">
+			<img src="{{ img.logo }}" width="200px"/>
+		</div>
+	</div>
+	<!--/HEADER-->
 
-<footer>
-  <p>{{ page.footer_text }}</p>
+{% block content %}{% endblock content %}
+</div> 
+<footer id="first">
+  <div class="container">
+		<div class="row">
+			<div class="span3">
+				<h2>dislook</h2>
+				<p style="padding-right:15px">Hendrerit eu facilisis nec, feugiat quis elit. Sed ut risus arcu, a elementum diam. In in fringilla risus. Proin in leo nibh. Ut eu risus eu erat fermentum bibendum. Vestibulum rhoncus aliquet porta.</p>
+			</div>
+			<div class="span3 social">
+				<h2>social</h2>
+					<img src="http://cdn1.iconfinder.com/data/icons/WPZOOM_Social_Networking_Icon_Set/48/facebook.png">	
+					<img src="http://cdn1.iconfinder.com/data/icons/WPZOOM_Social_Networking_Icon_Set/48/twitter.png">
+					<img src="http://cdn1.iconfinder.com/data/icons/WPZOOM_Social_Networking_Icon_Set/48/rss.png">
+					<img src="http://cdn1.iconfinder.com/data/icons/WPZOOM_Social_Networking_Icon_Set/48/google.png">
+					<img src="http://cdn1.iconfinder.com/data/icons/WPZOOM_Social_Networking_Icon_Set/48/youtube.png">
+					<img src="http://cdn1.iconfinder.com/data/icons/WPZOOM_Social_Networking_Icon_Set/48/mobileme.png">
+			</div>
+			<div class="span3">
+				<h2>seccions</h2>
+				<ul>
+					<li><span class="dot">·</span> portada</li>
+					<li><span class="dot">·</span> tarifes</li>
+					<li><span class="dot">·</span> blog</li>
+					<li><span class="dot">·</span> botiga</li>
+					<li><span class="dot">·</span> contacta</li>
+				</ul>
+			</div>
+			<div class="span3">
+				<h2>idioma</h2>
+				<ul>
+					<li><img src="http://cdn1.iconfinder.com/data/icons/famfamfam_flag_icons/es.png">  castellano</li>
+					<li><img src="http://cdn1.iconfinder.com/data/icons/famfamfam_flag_icons/catalonia.png">  català</li>
+				</ul>
+			</div>
+		</div>
+	</div>
 </footer>
-</div> <!-- /container -->
+
+<footer id="second">
+	<div class="container disp-table">
+		<div class="pull-left">
+		<b>portada | tarifes | contacta | blog | botiga | treballa amb nosaltres</b>
+	</div>
+	<div class="pull-right">
+		Todos los derechos reservador por dislook SL
+	</div>
+	</div>
+</footer>
+<!-- /container -->
 <!-- Le javascript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->

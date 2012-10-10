@@ -8,6 +8,7 @@ body {
 .header{
 	width:100%;
 	vertical-align:bottom;
+	margin-bottom:20px;
 }
 
 .disp-table{
@@ -64,6 +65,7 @@ footer#first{
 	background-color:#614d42;
 	padding:20px 0;
 	color:#cbbba0;
+	margin-top:40px;
 }
 footer#first p{
 	color:#cbbba0;
