@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<div class="row">
+	<div class="span7">
+		<div class="form-bck img-rounded">
+			<form>
+			  <label>Nombre</label>
+			  <input type="text" class="span6">
+			  <label>Teléfono</label>
+			  <input type="text" class="span6">
+			  <label>Asunto</label>
+			  <input type="text" class="span6">
+			  <label>Mensaje</label>
+			  <textarea rows="5" class="span6"></textarea>
+			  <button type="submit" class="btn btn-primary">Enviar</button>
+			</form>
+		</div>
+	</div>
+	<div class="span4 offset1">
+		<h2 style="margin-top:0">Mapa</h2>
+		<p>
+			<iframe width="300" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.es/maps?f=q&amp;source=s_q&amp;hl=es&amp;q=arcelona&amp;aq=&amp;sll=41.435262,1.78236&amp;sspn=0.038737,0.061197&amp;ie=UTF8&amp;t=m&amp;st=116606095092076519610&amp;rq=1&amp;ev=zi&amp;split=1&amp;radius=1.9&amp;hq=arcelona&amp;hnear=&amp;ll=41.452505,1.998825&amp;spn=0.025732,0.051327&amp;z=13&amp;output=embed"></iframe>
+		</p>
+		<h2>Contacto</h2>
+		<p><b>Teléfono</b><br>93 677 68 75</p>
+		<p><b>Email</b><br>info@dislook.com</p>
+		<p><b>Fax</b><br>333 686 756</p>
+	</div>
+</div>
+
+{% endblock content %}
