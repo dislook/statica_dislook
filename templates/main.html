@@ -1,5 +1,28 @@
 {% extends 'base.html' %}
 {% block content %}
+<a class="btn" onclick="$('#brands').slideToggle();">Ver marcas</a>
+<div id="brands" class="row" style="display:none">
+	<br>
+	<div class="span3">
+		<img src="{{ image.klapp.url() }}" class="img-rounded">
+		<br><br>
+		<img src="{{ image.qetre.url() }}" class="img-rounded">
+	</div>
+	<div class="span3">
+		<img src="{{ image.freihaut.url() }}" class="img-rounded">
+		<br><br>
+		<img src="{{ image.redusize.url() }}" class="img-rounded">
+	</div>
+	<div class="span3">
+		<img src="{{ image.marzia.url() }}" class="img-rounded">
+		<br><br>
+		<img src="{{ image.royal.url() }}" class="img-rounded">
+	</div>
+	<div class="span3">
+		<img src="{{ image.overline.url() }}" class="img-rounded">
+	</div>
+</div>
+<br><br>
 	<div id="myCarousel" class="carousel slide radius">
 	  <!-- Carousel items -->
 	  <div class="carousel-inner">
@@ -24,6 +47,7 @@
 <br>
 <div class="row">
 	<div class="span4">
+		
 		<div class="product-title">
 			<img src="{{ image.desc1.url() }}" class="img-circle" width="250px">
 			<h2>{{ cosmetic_bloc.title }}</h2>
@@ -31,18 +55,6 @@
 		<div class="product-description">
 			<p>{{ cosmetic_bloc.text }}</p>
 		</div>
-	</div>
-	
-	<div class="span4">
-		<div class="product-title">
-			<img src="{{ image.desc2.url() }}" class="img-circle" width="250px">
-			<h2>{{ dietetic_bloc.title }}</h2>
-		</div>
-		<div class="product-description">
-			<p>{{ dietetic_bloc.text }}</p>
-		</div>
-	</div>
-	<div class="span4">
 		
 		<div class="product-title">
 			<img src="{{ image.desc3.url() }}" class="img-circle" width="250px">
@@ -52,6 +64,44 @@
 			<p>{{ equipment_bloc.text }}</p>
 		</div>
 		
+		<div class="product-title">
+			<img src="{{ image.desc1.url() }}" class="img-circle" width="250px">
+			<h2>{{ cosmetic_bloc.title }}</h2>
+		</div>
+		<div class="product-description">
+			<p>{{ cosmetic_bloc.text }}</p>
+		</div>
+		
+	</div>
+	
+	<div class="span4">
+		
+		<div class="product-title">
+			<img src="{{ image.desc2.url() }}" class="img-circle" width="250px">
+			<h2>{{ dietetic_bloc.title }}</h2>
+		</div>
+		<div class="product-description">
+			<p>{{ dietetic_bloc.text }}</p>
+		</div>
+		
+		<div class="product-title">
+			<img src="{{ image.desc3.url() }}" class="img-circle" width="250px">
+			<h2>{{ equipment_bloc.title }}</h2>
+		</div>
+		<div class="product-description">
+			<p>{{ equipment_bloc.text }}</p>
+		</div>
+		
+		<div class="product-title">
+			<img src="{{ image.desc2.url() }}" class="img-circle" width="250px">
+			<h2>{{ dietetic_bloc.title }}</h2>
+		</div>
+		<div class="product-description">
+			<p>{{ dietetic_bloc.text }}</p>
+		</div>
+		
+	</div>
+	<div class="span4">
 	</div>
 </div>
 
