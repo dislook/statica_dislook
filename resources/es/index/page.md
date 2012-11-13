@@ -1,7 +1,7 @@
 template: main
-title: Dislook
-id:0
-description: Dislook
-keywords: dislook
+title:Inicio
+id:1
+description: Página de inicio
+keywords: dislook,inicio
 author: pedro.gracia@impulzia.com
 footer_text: 
