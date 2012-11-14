@@ -1,4 +1,4 @@
-template: main
+template:page
 title:Formación
 id:4
 description: Formación

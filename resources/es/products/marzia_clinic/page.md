@@ -1,4 +1,4 @@
-template: main
+template:product
 title:Marzia Clinic
 id:3.3
 description:Productos de Marzia Clinic

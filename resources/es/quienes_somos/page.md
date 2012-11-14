@@ -1,4 +1,4 @@
-template: main
+template:page 
 title:¿Quiénes somos?
 id:2
 description:¿Quiénes somos?

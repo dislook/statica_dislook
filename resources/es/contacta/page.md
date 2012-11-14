@@ -1,4 +1,4 @@
-template: main
+template:contact
 title:Contacta
 id:5
 description: Página de contacto

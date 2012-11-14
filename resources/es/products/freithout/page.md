@@ -1,4 +1,4 @@
-template: main
+template:product
 title:Freithout
 id:3.2
 description:Productos de Freithout

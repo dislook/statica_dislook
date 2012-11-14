@@ -1,4 +1,4 @@
-template: main
+template:product
 title:Productos
 id:3
 description:Productos

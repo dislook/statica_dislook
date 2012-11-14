@@ -11,7 +11,7 @@
   <!-- Le styles -->
   {{ css.bootstrap }}
   {{ css.style }}
-  <link href='http://fonts.googleapis.com/css?family=Gloria+Hallelujah' rel='stylesheet' type='text/css'>
+  {{ css.fonts }}
   {{ css.animate_min }}
 	
   <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -39,12 +39,13 @@
 			{% include "menu.html" %}
 		</div>
 		<div class="pull-right">
-			<img src="{{ img.logo }}" width="200px"/>
+      {{ img.logo|thumbnail(200,170) }}
 		</div>
 	</div>
 	<!--/HEADER-->
 
 {% block content %}{% endblock content %}
+
 </div> 
 <footer id="first">
   <div class="container">
@@ -55,15 +56,15 @@
 			</div>
 			<div class="span3 social">
 				<h2>social</h2>
-					<img src="http://cdn1.iconfinder.com/data/icons/WPZOOM_Social_Networking_Icon_Set/48/facebook.png">	
-					<img src="http://cdn1.iconfinder.com/data/icons/WPZOOM_Social_Networking_Icon_Set/48/twitter.png">
-					<img src="http://cdn1.iconfinder.com/data/icons/WPZOOM_Social_Networking_Icon_Set/48/rss.png">
-					<img src="http://cdn1.iconfinder.com/data/icons/WPZOOM_Social_Networking_Icon_Set/48/google.png">
-					<img src="http://cdn1.iconfinder.com/data/icons/WPZOOM_Social_Networking_Icon_Set/48/youtube.png">
-					<img src="http://cdn1.iconfinder.com/data/icons/WPZOOM_Social_Networking_Icon_Set/48/mobileme.png">
+				  {{ img.social.facebook }}
+					{{ img.social.twitter }}
+					{{ img.social.rss }}
+					{{ img.social.google }}
+					{{ img.social.youtube }}
+					{{ img.social.mobileme }}
 			</div>
 			<div class="span3">
-				<h2>seccions</h2>
+				<h2>secciones</h2>
 				<ul>
 					<li><span class="dot">·</span> portada</li>
 					<li><span class="dot">·</span> tarifes</li>
@@ -75,8 +76,8 @@
 			<div class="span3">
 				<h2>idioma</h2>
 				<ul>
-					<li><img src="http://cdn1.iconfinder.com/data/icons/famfamfam_flag_icons/es.png">  castellano</li>
-					<li><img src="http://cdn1.iconfinder.com/data/icons/famfamfam_flag_icons/catalonia.png">  català</li>
+					<li>{{ img.flags.es }} castellano</li>
+          <li>{{ img.flags.catalonia}} català</li>
 				</ul>
 			</div>
 		</div>

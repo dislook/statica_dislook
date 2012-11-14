@@ -1,4 +1,4 @@
-template: main
+template:product
 title:Overline
 id:3.7
 description:Productos de Overline

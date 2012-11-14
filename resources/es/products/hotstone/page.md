@@ -1,4 +1,4 @@
-template: main
+template:product
 title:Hotstone
 id:3.8
 description:Productos de Hotstone

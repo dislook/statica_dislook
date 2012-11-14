@@ -1,4 +1,4 @@
-template: main
+template:product
 title:Redusize
 id:3.4
 description:Productos de Redusize

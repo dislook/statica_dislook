@@ -1,4 +1,4 @@
-template: main
+template:product
 title:Klapp
 id:3.1
 description:Productos de Klapp

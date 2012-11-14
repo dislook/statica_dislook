@@ -1,4 +1,4 @@
-template: main
+template:product
 title:Royal Effem
 id:3.4
 description:Productos de Royal Effem
