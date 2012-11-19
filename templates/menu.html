@@ -1,5 +1,9 @@
 <ul>
 {% for child in menu %}
+  {% if not child.children %}
   <li class="btn-menu"><a href="{{ child.url() }}">{{ child.title }}</a></li>
+  {% else %}
+	<li class="btn-menu"><a href="{{ child.url() }}">HEY</a></li>
+	{% endif %}
 {% endfor %}
 </ul>
