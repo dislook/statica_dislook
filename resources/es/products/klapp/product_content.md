@@ -1,0 +1,1 @@
+{{ gallery.a_classic|template("items.html") }}

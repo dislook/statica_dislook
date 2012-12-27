@@ -1,0 +1,7 @@
+DEFAULT_TEMPLATE: main
+DOMAIN: http://www.dislook.es
+LANGUAGES: 
+  es: Español
+I18N:
+  es:
+    footer_copyright: Todos los derechos reservados por dislook S.L.

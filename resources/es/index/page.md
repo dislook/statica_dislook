@@ -4,4 +4,3 @@ id:1
 description: Página de inicio
 keywords: dislook,inicio
 author: pedro.gracia@impulzia.com
-footer_text: 

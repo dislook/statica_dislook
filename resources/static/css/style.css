@@ -56,19 +56,35 @@ footer#first h2{
 .carousel-control{
 	background:#614d42 !important;
 }
-
+.line-name, .line-info{
+	padding:10px;
+}
+.product{
+	margin-top:10px;
+	margin-bottom:80px;
+	width:200px;
+}
 .product-title{
 	text-align:center;
 	margin-top:20px;
 }
-
 .product-description{
 	text-align:left;
 	font-size:13px;
 	padding:0 25px;
 	margin-bottom:50px;
 }
-
+.thumbnails hr{
+	border-top:1px solid #baab93;
+	border-bottom:1px solid #d8c8af;
+	margin:0 0 5px 0;
+}
+.thumbnails h5{
+	margin:5px 0 0 0;
+}
+.thumbnails h6{
+	margin:0;
+}
 footer#first{
 	background-color:#614d42;
 	padding:20px 0;
