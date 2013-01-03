@@ -1,0 +1,1 @@
+{{ gallery.asa_peel|template("items.html") }}

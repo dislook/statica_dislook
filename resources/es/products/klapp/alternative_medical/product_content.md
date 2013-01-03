@@ -1,0 +1,1 @@
+{{ gallery.alternative_medical|template("items.html") }}

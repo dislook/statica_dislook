@@ -1,0 +1,1 @@
+{{ gallery.beta_glucan|template("items.html") }}

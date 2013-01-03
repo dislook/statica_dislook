@@ -1,0 +1,1 @@
+{{ gallery.caviar_power|template("items.html") }}
