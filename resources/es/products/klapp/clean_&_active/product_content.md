@@ -1,1 +1,0 @@
-{{ gallery.clean_&_active|template("items.html") }}
